@@ -1,0 +1,34 @@
+{
+  "name": "protractortest",
+  "version": "1.0.0",
+  "description": "API Swagger Tests",
+  "scripts": {
+    "test": "mocha 'Tests/*.js'",
+    "posttest": "open 'mochawesome-report/mochawesome.html'"
+  },
+  "author": "Parag Jathar",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.0.0",
+    "async": "^0.3.0",
+    "chai": "^1.0.0",
+    "expect.js": "^0.3.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-swagger-tests": "^1.0.0",
+    "request": "^1.0.0",
+    "should": "^1.0.0",
+    "supertest": "^1.0.0",
+    "swagger-test": "^0.7.0",
+    "tv4": "^1.0.0",
+    "util": "^0.10.0",
+    "fs": "^0.0.2",
+    "mochawesome": "^3.1.1",
+    "mochawesome-report-generator": "^3.1.4"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.18.0",
+    "mochawesome": "^3.1.1",
+    "mochawesome-report-generator": "^3.1.4"
+  }
+}
