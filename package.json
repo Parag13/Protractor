@@ -1,0 +1,53 @@
+{
+
+  "name": "angular-ui-tests",
+
+  "version": "0.0.1",
+
+  "description": "Angular UI tests based on Protractor",
+
+  "main": "configuration/conf.js",
+
+  "scripts": {
+
+    "test": "npm update && npm install &&  node ./node_modules/protractor/bin/webdriver-manager update && protractor configuration/conf.js"
+
+   },
+
+  "author": "Parag Jathar - QA@CallPotential.com",
+
+  "license": "MIT",
+
+  "dependencies": {
+
+    "bower": "^1.8.4",
+
+    "grunt": "^1.0.2",
+
+    "protractor": "^5.3.1",
+
+    "protractor-jasmine2-html-reporter": "0.0.7",
+
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+
+    "protractor-screenshoter-plugin":"0.10.1",
+
+    "increase-memory-limit": "^1.0.3",
+
+	"properties-reader":"0.0.16"
+
+  },
+
+  "devDependencies": {
+
+    "grunt-protractor-runner": "^5.0.0",
+
+    "jasmine-reporters": "^2.0.0",
+
+    "increase-memory-limit": "^1.0.3",
+
+    "cross-env": "^5.0.5"
+
+  }
+
+}
